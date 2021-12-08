@@ -1,0 +1,8 @@
+env:
+  imageRepository: 'content-web'
+  resourceGroupName: 'fabmedical-504301'
+  clusterName: 'fabmedical-504301'
+  containerRegistryName: 'acr504301'
+  containerRegistry: 'acr504301.azurecr.io'
+  dockerfilePath: './content-web'
+  tag: '${{ github.run_id  }}'
